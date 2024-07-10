@@ -13,7 +13,7 @@ sudo systemctl start crond
 
 # On ajout l'envoie des mails dans le crontab 
 crontab -e
-* * * * * /usr/bin/python3 /home/user/scripts/print.py
+* * * * * /usr/bin/python3 >> /home/ec2-user/scripts/journal.log
 
 # On monitore le journal d'envoie de mail 
 
