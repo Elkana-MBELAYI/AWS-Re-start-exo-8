@@ -47,7 +47,7 @@ def envoyer_email(destinataire, sujet, contenu):
         print("Erreur lors de l'envoi de l'e-mail:", str(e))
 
 # Exemple d'utilisation
-destinataire = 'andermonmeme@gmail.com'
+destinataire = 'elkanambelayi21@gmail.com'
 sujet = 'Rapport sur la performence du serveur'
 contenu = afficher_informations_systeme()
 envoyer_email(destinataire, sujet, contenu)
