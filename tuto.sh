@@ -6,7 +6,7 @@ sudo yum -y install python3-pip
 # Installer l'utilitaire pour monitoring 
 sudo pip install psutil 
 # Creation du script python pour recuperer les ressources et l'envoyer par mail
-sudo nano .py
+sudo nano mailing_script.py
 # Installation de crontab pour prendre en charge les automatisations de scritps sur fichier cron et démarrage
 sudo yum -y install cronie
 sudo systemctl start crond
